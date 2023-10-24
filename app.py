@@ -1,7 +1,3 @@
-
-from flask import Flask , render_template , request
-import requests
-
 from flask import Flask , render_template, request
 import requests 
 
@@ -25,4 +21,4 @@ def get_weatherdata():
     return f"data : {data}"
 
 if __name__ == '__main__':
-    app.run(host= "0.0.0.0" , port = 5002)
+    app.run(host= "0.0.0.0" , port = 5003)
